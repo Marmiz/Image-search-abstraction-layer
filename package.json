@@ -1,0 +1,21 @@
+{
+  "name": "image-parser-api",
+  "version": "1.0.0",
+  "description": "A small api that returns images alt infos as well as your query",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js "
+  },
+  "keywords": [
+    "freecodecamp",
+    "image",
+    "parser"
+  ],
+  "author": "Marmiz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb": "^2.2.10",
+    "node-bing-api": "^2.4.0"
+  }
+}
