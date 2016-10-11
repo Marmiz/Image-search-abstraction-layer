@@ -4,7 +4,7 @@ var controller = require('./controller/controller');
 
 // Homepage
 router.get('/', function(req, res){
-  res.send('Hello World');
+  res.sendFile('index.html', {root: 'public'});
 });
 
 // Search

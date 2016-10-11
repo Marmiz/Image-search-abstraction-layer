@@ -1,0 +1,36 @@
+<head>
+
+    <title>Image Search Abstraction Layer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="page-header container">
+        <h1>Image Abstraction Layer</br>
+        <small>A small project made for Free Code Camp back-end curriculm</small></h1>
+    </div>
+
+    <div class="container">
+        <h3>What's this?</h3>
+        <p class="lead">A simple program where I can get the image URLs, alt text and page urls
+          for a set of images relating to a given search string.</p>
+
+          <h3>Usage</h3>
+          <p>By visiting <code>api/imagesearch/"your search"</code>You will see a
+            default Json with the 10 most relevant images</p>
+            <pre>api/imagesearch/"your search"</pre>
+
+          <p>You can paginate through the response by adding an <code>offset</code></p>
+          <pre>api/imagesearch/"your search"?offset="number"</pre>
+
+          <p>And you can see the most recent seach history</p>
+          <pre>api/latest/imagesearch</pre>
+
+    </div>
+
+    <div class="container" style="padding-top: 20px">
+        <p>Made with <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> by Marmiz</p>
+    </div>
+
+</body>
